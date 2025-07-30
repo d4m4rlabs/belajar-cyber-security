@@ -1,0 +1,39 @@
+# 📘 Day 1 - Dasar Linux di Termux
+
+## 🎯 Tujuan Hari Ini
+- Memahami dasar penggunaan terminal Linux
+- Menjalankan perintah dasar untuk navigasi dan manajemen file
+
+## 🧪 Perintah Dasar Linux
+
+| Perintah              | Fungsi                                                |
+|-----------------------|-------------------------------------------------------|
+| pwd                   | Menampilkan lokasi direktori saat ini                 |
+| ls                    | Menampilkan isi folder                                |
+| cd [folder]           | Berpindah ke folder lain                              |
+| mkdir [nama_folder]   | Membuat folder baru                                   |
+| touch [nama_file]     | Membuat file kosong                                   |
+| echo [isi] > file.txt | Menulis teks ke dalam file                            |
+| cat [file]            | Menampilkan isi file                                  |
+| rm [file]             | Menghapus file                                        |
+| rm -r [folder]        | Menghapus folder dan isinya                           |
+
+## ✍️ Praktik Langsung
+```bash
+pwd
+mkdir latihan
+cd latihan
+touch info.txt
+echo "Halo Linux!" > info.txt
+cat info.txt
+```
+
+## ⚠️ Tips Penting
+- Linux *case-sensitive* (huruf besar dan kecil dianggap berbeda)
+- Jangan asal pakai `rm -rf /`, itu bisa menghapus semua isi sistem!
+
+## 📌 Kesimpulan
+Hari ini kamu sudah mempelajari:
+- Navigasi direktori
+- Membuat, menulis, dan membaca file
+- Menghapus file & folder
