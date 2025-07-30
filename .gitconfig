@@ -1,3 +1,5 @@
 [user]
 	name = d4m4rlabs
 	email = damargalih400gmail.com
+[credential]
+	helper = cache
